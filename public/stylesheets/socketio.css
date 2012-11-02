@@ -1,0 +1,60 @@
+body{
+    background: darkCyan;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 100%;
+    width:  100%;
+}
+.board{
+    width:  600px;
+    height: 100%;
+    margin: auto;
+}
+.input{
+    padding: 20px 0px;
+    height: 30px;
+    width:  100%;
+}
+input.box{
+    background-color: blanchedAlmond;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.logs{
+    background-color: blueViolet;
+    top: 70;
+    height: 400px;
+    padding: 16px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow-y: scroll;
+}
+.Send, .Recv, .Warn{
+    position: relative;
+    width: 100%;
+    margin: 2px 0px;
+}
+.Send{
+    background-color: azure;
+}
+.Recv{
+    background-color: lavenderblush;
+}
+.Warn{
+    background: darkRed;
+    color: cyan;
+}
+.body{
+    word-wrap: break-word;
+}
+.time{
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+}
